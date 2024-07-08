@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
 
 :root {
-  --primary-color: #1E90FF; /* Dodger Blue */
-  --primary-color-dark: #4682B4; /* Steel Blue */
-  --text-dark: #2F4F4F; /* Dark Slate Gray */
-  --text-light: #696969; /* Dim Gray */
-  --white: #FFFFFF; /* White */
+  --primary-color: #1E90FF; 
+  --primary-color-dark: #4682B4; 
+  --text-dark: #2F4F4F; 
+  --text-light: #696969; 
+  --white: #FFFFFF; 
   --max-width: 1200px;
   --header-font: "Bebas Neue", sans-serif;
 }
@@ -43,19 +43,19 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--primary-color); /* Updated */
+  background-color: var(--primary-color); 
 }
 
 .nav__logo a {
   font-size: 1.75rem;
   font-weight: 400;
   font-family: var(--header-font);
-  color: var(--white); /* Updated */
+  color: var(--white); 
 }
 
 .nav__menu__btn {
   font-size: 1.5rem;
-  color: var(--white); /* Updated */
+  color: var(--white); 
   cursor: pointer;
 }
 
@@ -71,7 +71,7 @@ nav {
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
-  background-color: var(--primary-color); /* Updated */
+  background-color: var(--primary-color); 
   transition: 0.5s;
   z-index: -1;
   transform: translateY(-100%);
@@ -83,11 +83,11 @@ nav {
 
 .nav__links a {
   font-weight: 500;
-  color: var(--white); /* Updated */
+  color: var(--white); 
 }
 
 .nav__links a:hover {
-  color: var(--text-dark); /* Updated */
+  color: var(--text-dark); /
 }
 
 .nav__btns {
@@ -140,8 +140,8 @@ nav {
   gap: 10px;
   font-size: 1.1rem;
   font-weight: 500;
-  color: var(--text-dark); /* Updated */
-  background-color: var(--white); /* Updated */
+  color: var(--text-dark); 
+  background-color: var(--white); 
   white-space: nowrap;
   border-radius: 5px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
@@ -151,7 +151,7 @@ nav {
 .header__image__card span {
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--primary-color); /* Updated */
+  color: var(--primary-color); 
 }
 
 .header__image__card-1 {
@@ -183,18 +183,18 @@ nav {
   font-size: 5rem;
   font-weight: 400;
   font-family: var(--header-font);
-  color: var(--text-dark); /* Updated */
+  color: var(--text-dark); 
   line-height: 5.5rem;
   text-align: center;
 }
 
 .header__content h1 span {
-  color: var(--primary-color); /* Updated */
+  color: var(--primary-color); 
 }
 
 .header__content p {
   margin-bottom: 2rem;
-  color: var(--text-light); /* Updated */
+  color: var(--text-light); 
   line-height: 1.75rem;
   text-align: center;
 }
@@ -227,7 +227,7 @@ nav {
   margin-bottom: 5px;
   font-size: 0.9rem;
   font-weight: 500;
-  color: var(--text-light); /* Updated */
+  color: var(--text-light); 
 }
 
 .header__content .input__group > div {
@@ -246,13 +246,13 @@ nav {
 
 .header__content input::placeholder {
   font-weight: 600;
-  color: var(--text-dark); /* Updated */
+  color: var(--text-dark); 
 }
 
 .header__content .input__group span {
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--primary-color); /* Updated */
+  color: var(--primary-color); 
 }
 
 .header__content button {
@@ -262,20 +262,20 @@ nav {
   border: none;
   font-size: 1rem;
   white-space: nowrap;
-  color: var(--white); /* Updated */
-  background-color: var(--primary-color); /* Updated */
+  color: var(--white); 
+  background-color: var(--primary-color); 
   border-radius: 10px;
   transition: 0.3s;
   cursor: pointer;
 }
 
 .header__content button:hover {
-  background-color: var(--primary-color-dark); /* Updated */
+  background-color: var(--primary-color-dark); 
 }
 
 .header__content .bar {
   font-size: 0.9rem;
-  color: var(--text-light); /* Updated */
+  color: var(--text-light); 
   text-align: center;
 }
 
@@ -299,11 +299,11 @@ nav {
   }
 
   .nav__logo a {
-    color: var(--text-dark); /* Updated */
+    color: var(--text-dark); 
   }
 
   .nav__logo a span {
-    color: var(--primary-color); /* Updated */
+    color: var(--primary-color); 
   }
 
   .nav__menu__btn {
@@ -320,12 +320,12 @@ nav {
 
   .nav__links a {
     padding-block: 5px;
-    color: var(--text-dark); /* Updated */
+    color: var(--text-dark); 
     border-bottom: 4px solid transparent;
   }
 
   .nav__links a:hover {
-    border-color: var(--primary-color); /* Updated */
+    border-color: var(--primary-color);
   }
 
   .nav__btns {
@@ -345,21 +345,21 @@ nav {
   }
 
   .sign__up {
-    color: var(--text-dark); /* Updated */
+    color: var(--text-dark); 
     background-color: transparent;
   }
 
   .sign__up:hover {
-    color: var(--primary-color); /* Updated */
+    color: var(--primary-color); 
   }
 
   .sign__in {
-    color: var(--white); /* Updated */
-    background-color: var(--primary-color); /* Updated */
+    color: var(--white); 
+    background-color: var(--primary-color); 
   }
 
   .sign__in:hover {
-    background-color: var(--primary-color-dark); /* Updated */
+    background-color: var(--primary-color-dark); 
   }
 
   .header__container {
